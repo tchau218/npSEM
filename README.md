@@ -6,7 +6,7 @@ State-space models (SSMs) provide a natural framework to study time series with 
 
 In practice, the dynamical model is typically unknown or numerically intractable. A simple way is to consider an alternative parametric model based on basic functions with relevant parameters. However, it is typically difficult to find an approriate model. 
 We now propose an original non-parametric method to reconstruct the dynamics as well as estimate the model parameters given only a sequence of the observation process.
-This novel method is the combination of a non-parametric estimate of the dynamical model using local linear regression (LLR), a conditional particle smoother and an Expectation-Maximization (EM)-like algorithm. Further details of its construction and implementation are introduced in the article **An efficient particle-based method for maximum likelihood parameter estimates in nonlinear state-space models** of authors "T.T.T. Chau, P. Ailliot, V. Monbet".
+This novel method is the combination of a **non-parametric** estimate of the dynamical model using local linear regression (LLR), a conditional particle smoother and an **Expectation-Maximization** (EM)-like algorithm. Further details of its construction and implementation are introduced in the article **An efficient particle-based method for maximum likelihood parameter estimates in nonlinear state-space models** of authors "T.T.T. Chau, P. Ailliot, V. Monbet".
 
 This **npEM** source code was built to export numerical results in the paper. To verify the efficiency of the npEM algorithm, its performance is compared to the one of EM-like algorithms where the true model is given.
 

@@ -12,7 +12,7 @@ This **npSEM** source code was built to export numerical results in the paper. T
 
 # STRUCTURE
 
-We organize the library into two main testing files. The first one "*test_npEM_sinus.ipynb*" is to execute experiments on an univariate sinus model and the second "*test_npEM_L63.ipynb*" is to provide the results on a 3-dimensional Lorenz model. Supplementary codes are contained in the files named "*methods*", "*additives*" and "*models*". 
+We organize the library into two main testing files. The first one "*test_npSEM_sinus.ipynb*" is to execute experiments on an univariate sinus model and the second "*test_npSEM_L63.ipynb*" is to provide the results on a 3-dimensional Lorenz model. Supplementary codes are contained in the files named "*methods*" and "*models*" (for Lorenz model only). 
 
 
 # CONTACT:

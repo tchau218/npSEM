@@ -6,7 +6,7 @@ State-space models (SSMs) provide a natural framework to study time series with 
 
 In practice, the dynamical model is typically unknown or numerically intractable. A simple way is to consider an alternative parametric model based on basic functions with relevant parameters. However, it is typically difficult to find an approriate model. 
 We now propose an original non-parametric method to reconstruct the dynamics as well as estimate the model parameters given only a sequence of the observation process.
-This novel method is the combination of a **non-parametric** estimate of the dynamical model using local linear regression (LLR), a conditional particle smoother and a **Stochastic Expectation-Maximization** (SEM) algorithm. Further details of its construction and implementation are introduced in the article *Non-parametric state-space models for time series with error in measurements* of authors "T.T.T. Chau, P. Ailliot, V. Monbet".
+This novel method is the combination of a **non-parametric** estimate of the dynamical model using local linear regression (LLR), a conditional particle smoother and a **Stochastic Expectation-Maximization** (SEM) algorithm. Further details of its construction and implementation are introduced in the article *A novel non-parametric algorithm for reconstruction and estimation in nonlinear time series with observational errors* of authors "T.T.T. Chau, P. Ailliot, V. Monbet".
 
 This **npSEM** source code was built to export numerical results in the paper. To verify the efficiency of the npSEM algorithm, its performance is compared to the one of SEM algorithms where the true model is given.
 

@@ -14,7 +14,7 @@ This *npSEM* source code was built to export numerical results in the manuscript
 # CONTENTS
 
 
-We organize the library into two *.ipynb files for executing experiments and performing results of the SEM and npSEM algorithms on two toy models. The first one "test_npSEM_sinus.ipynb" is  on a univariate sinus model, and the second "test_npSEM_L63.ipynb" performs the results on a 3-dimensional Lorenz model. The codes associated to the two testing files are contained in the files named "methods.zip" and "models.zip". 
+We organize the library into two *.ipynb files for executing experiments and performing results of the SEM and npSEM algorithms on two toy models. The first one "test_npSEM_sinus.ipynb" is for a univariate sinus model, and the second "test_npSEM_L63.ipynb" performs the results on a 3-dimensional Lorenz model. The codes associated to the two testing files are compressed in the files named "methods.zip" and "models.zip". 
 
 
 # AUTHORS:

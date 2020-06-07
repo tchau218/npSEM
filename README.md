@@ -7,7 +7,7 @@ State-space models (SSMs) including a dynamical model and an observation model p
 In practice, the dynamical model is typically unknown or numerically intractable. A simple way is to consider a parametric model of the dynamic based on basic functions with relevant parameters. However, it is typically difficult to find an approriate model. 
 We now propose an original non-parametric method to reconstruct the dynamics as well as estimate the model parameters given only a sequence of the observation process.
 
-Our approach, named as npSEM, is the combination of a non-parametric estimate of $m$ using local linear regression (LLR), a conditional particle smoother and a stochastic Expectation-Maximization (SEM) algorithm. Further details of its construction and implementation are introduced in the manuscript *An algorithm for non-parametric estimation in state-space models* of authors "T.T.T. Chau, P. Ailliot, V. Monbet".
+Our approach, named as npSEM, is the combination of a non-parametric estimate of the dynamic using local linear regression (LLR), a conditional particle smoother and a stochastic Expectation-Maximization (SEM) algorithm. Further details of its construction and implementation are introduced in the manuscript *An algorithm for non-parametric estimation in state-space models* of authors "T.T.T. Chau, P. Ailliot, V. Monbet".
 
 This *npSEM* source code was built to export numerical results in the manuscript. To verify the efficiency of the npSEM algorithm, its performance is compared to the one of SEM algorithms where the true dynamic is given.
 

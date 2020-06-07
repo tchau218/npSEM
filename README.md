@@ -4,10 +4,8 @@ One of the classical problems in time series analysis consists in identifying a 
 
 State-space models (SSMs)} provide a natural framework to study time series with measurement noise  in  environment, economy, computer sciences, etc.  They are generally defined as follows
 \begin{align} 
-\begin{cases}
 X_{t} = m \left(X_{t-1} \right) + \eta_{t},  \quad  \eta_{t} \sim \mathcal N (0,Q_t) \\
 Y_t = H(X_t)  + \epsilon_t, \quad \epsilon_t \sim \mathcal N (0,R_t).
-\end{cases}
 \end{align} 
 where $(X_t, Y_t) \in (\mathcal{X},\mathcal{Y}),  \forall t = 1:T$. The models $(m,H)$ with respect to independent white noises $ (\eta_t, \epsilon_t)_{t=1:T}$, describe the evolution of the latent state $(X_t)$ and the transformation between the state $(X_t)$ and the measurements $(Y_t)$. 
 

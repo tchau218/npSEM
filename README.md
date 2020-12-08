@@ -18,6 +18,6 @@ We organize the library into two *.ipynb files for executing experiments and per
 
 
 # AUTHORS:
-Thi Tuyet Trang Chau (trang.chau@lsce.ipsl.fr, tuyettrang218@gmail.com); 
+Thi Tuyet Trang Chau (trang.chau@lsce.ipsl.fr, thi.tuyet.trang.chau@gmail.com); 
 Valerie Monbet (valerie.monbet@univ-rennes1.fr); 
 Pierre Ailliot (pierre.ailliot@univ-brest.fr)
